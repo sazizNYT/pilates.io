@@ -1053,6 +1053,83 @@ section {
     text-decoration: underline;
 }
 
+/* Citations */
+sup.citation {
+    font-size: 0.75em;
+    vertical-align: super;
+    color: #667eea;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+sup.citation:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+/* References Section */
+.references-section {
+    margin-top: 2rem;
+}
+
+.references-list {
+    list-style: decimal;
+    padding-left: 2rem;
+    margin: 0;
+    counter-reset: reference-counter;
+}
+
+.references-list li {
+    margin-bottom: 1.5rem;
+    padding-left: 0.5rem;
+    line-height: 1.8;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.references-list li::marker {
+    font-weight: 600;
+    color: #667eea;
+}
+
+.references-list li em {
+    font-style: italic;
+    color: #2c3e50;
+}
+
+.references-list a {
+    color: #667eea;
+    text-decoration: none;
+    word-break: break-all;
+    transition: color 0.3s ease;
+}
+
+.references-list a:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+.additional-resources {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 2px solid #e9ecef;
+}
+
+.additional-resources h4 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    font-size: 1.125rem;
+}
+
+.additional-resources p {
+    color: #666;
+    line-height: 1.7;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
 /* Instructors Section */
 .instructors {
     background: #f8f9fa;
