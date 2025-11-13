@@ -350,6 +350,31 @@ section {
     color: #667eea;
 }
 
+/* Research Section - Population Info */
+.population-info {
+    background: white;
+    border-radius: 20px;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.population-info h3 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-size: 1.75rem;
+}
+
+.population-info p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.population-info p:last-child {
+    margin-bottom: 0;
+}
+
 /* Benefits Section */
 .benefits {
     background: #f8f9fa;
@@ -445,6 +470,491 @@ section {
 .guide-description {
     color: #666;
     line-height: 1.6;
+}
+
+/* Surgery & Recovery Section */
+.surgery-recovery {
+    background: white;
+}
+
+.surgery-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+.surgery-info-card,
+.recovery-info-card,
+.pilates-role-card {
+    background: #f8f9fa;
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.surgery-info-card h3,
+.recovery-info-card h3,
+.pilates-role-card h3 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+.surgery-list {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+.surgery-list li {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+.recovery-phases {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.phase {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    border-left: 4px solid #667eea;
+}
+
+.phase h4 {
+    margin-bottom: 0.75rem;
+    color: #667eea;
+    font-size: 1.125rem;
+}
+
+.phase p {
+    margin: 0;
+    color: #666;
+    line-height: 1.7;
+}
+
+.pilates-benefits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.benefit-point {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.benefit-point strong {
+    display: block;
+    margin-bottom: 0.75rem;
+    color: #2c3e50;
+    font-size: 1.125rem;
+}
+
+.benefit-point p {
+    margin: 0;
+    color: #666;
+    line-height: 1.7;
+}
+
+.important-note {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.important-note p {
+    margin: 0;
+    color: #856404;
+    line-height: 1.7;
+}
+
+/* Prevention Section */
+.prevention {
+    background: #f8f9fa;
+}
+
+.prevention-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+.prevention-card {
+    background: white;
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.prevention-card h3 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+.prevention-list {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+.prevention-list li {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+.prevention-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.prevention-item {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 15px;
+    border-top: 3px solid #667eea;
+}
+
+.prevention-item h4 {
+    margin-bottom: 0.75rem;
+    color: #2c3e50;
+    font-size: 1.125rem;
+}
+
+.prevention-item p {
+    margin: 0;
+    color: #666;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.research-evidence {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+.research-evidence li {
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+.prevention-conclusion {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background: #e7f3ff;
+    border-radius: 10px;
+    border-left: 4px solid #667eea;
+    font-style: italic;
+    color: #2c3e50;
+    line-height: 1.8;
+}
+
+/* Safety Section */
+.safety {
+    background: white;
+}
+
+.safety-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+.safety-card,
+.modifications-card,
+.safety-tips-card {
+    background: #f8f9fa;
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.safety-card h3,
+.modifications-card h3,
+.safety-tips-card h3 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+.contraindications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
+
+.contraindication-category {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.contraindication-category h4 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    font-size: 1.125rem;
+}
+
+.contraindication-category ul {
+    margin: 0;
+    padding-left: 2rem;
+}
+
+.contraindication-category li {
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+.medical-consultation {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+
+.medical-consultation p {
+    margin-bottom: 0.75rem;
+    color: #856404;
+    font-weight: 600;
+}
+
+.medical-consultation ul {
+    margin: 0;
+    padding-left: 2rem;
+    color: #856404;
+}
+
+.medical-consultation li {
+    margin-bottom: 0.5rem;
+    line-height: 1.7;
+}
+
+.modifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.modification-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    border-top: 3px solid #667eea;
+}
+
+.modification-item h4 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    font-size: 1.125rem;
+}
+
+.modification-item ul {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.modification-item li {
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.tip-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    border-left: 4px solid #28a745;
+}
+
+.tip-item h4 {
+    margin-bottom: 0.75rem;
+    color: #2c3e50;
+    font-size: 1.125rem;
+}
+
+.tip-item p {
+    margin: 0;
+    color: #666;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.instructor-note {
+    background: #e7f3ff;
+    border-left: 4px solid #667eea;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.instructor-note p {
+    margin: 0;
+    color: #2c3e50;
+    line-height: 1.7;
+}
+
+/* Marketing Section */
+.marketing {
+    background: #f8f9fa;
+}
+
+.marketing-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+.marketing-card {
+    background: white;
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.marketing-card h3 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+.marketing-list {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+.marketing-list li {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+.messaging-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.messaging-item {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 15px;
+    border-top: 3px solid #667eea;
+}
+
+.messaging-item h4 {
+    margin-bottom: 0.75rem;
+    color: #2c3e50;
+    font-size: 1.125rem;
+}
+
+.messaging-item p {
+    margin: 0;
+    color: #666;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.environment-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.environment-item {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.environment-item h4 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    font-size: 1.125rem;
+}
+
+.environment-item ul {
+    margin: 0;
+    padding-left: 2rem;
+}
+
+.environment-item li {
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.community-list {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+.community-list li {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+.research-marketing {
+    margin-top: 1.5rem;
+}
+
+.research-marketing p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+.research-marketing ul {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.research-marketing li {
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+.marketing-conclusion {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background: #e7f3ff;
+    border-radius: 10px;
+    border-left: 4px solid #667eea;
+    font-style: italic;
+    color: #2c3e50;
+    line-height: 1.8;
 }
 
 /* Resources Section */
@@ -790,6 +1300,27 @@ section {
     .resources-content {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+
+    .prevention-grid,
+    .modifications-grid,
+    .tips-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .surgery-content,
+    .prevention-content,
+    .safety-content,
+    .marketing-content {
+        gap: 2rem;
+    }
+
+    .messaging-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .population-info {
+        padding: 2rem 1.5rem;
     }
 
     .class-details {
