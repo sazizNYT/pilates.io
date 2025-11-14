@@ -193,7 +193,7 @@ p {
 
 .btn-primary {
     background: linear-gradient(135deg, #93C6E7 0%, #AEE2FF 100%);
-    color: #BE5985;
+    color: #667BC6;
     box-shadow: 0 5px 15px rgba(147, 198, 231, 0.4);
 }
 
@@ -204,12 +204,12 @@ p {
 
 .btn-secondary {
     background: transparent;
-    color: #BE5985;
-    border: 2px solid #BE5985;
+    color: #667BC6;
+    border: 2px solid #667BC6;
 }
 
 .btn-secondary:hover {
-    background: #BE5985;
+    background: #667BC6;
     color: white;
     transform: translateY(-2px);
 }
