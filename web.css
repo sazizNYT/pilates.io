@@ -73,7 +73,7 @@ p {
 
 .logo h1 {
     font-size: 1.75rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #93C6E7 0%, #AEE2FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -95,7 +95,7 @@ p {
 }
 
 .nav-link:hover {
-    color: #667eea;
+    color: #93C6E7;
 }
 
 .nav-link::after {
@@ -105,7 +105,7 @@ p {
     height: 2px;
     bottom: -5px;
     left: 50%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #93C6E7 0%, #AEE2FF 100%);
     transition: all 0.3s ease;
     transform: translateX(-50%);
 }
@@ -132,7 +132,7 @@ p {
 /* Hero Section */
 .hero {
     padding: 120px 0 80px;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #B9F3FC 0%, #AEE2FF 100%);
     min-height: 90vh;
     display: flex;
     align-items: center;
@@ -150,7 +150,7 @@ p {
 
 .hero-title {
     margin-bottom: 1.5rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #93C6E7 0%, #AEE2FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -176,7 +176,7 @@ p {
 .placeholder-image {
     font-size: 12rem;
     opacity: 0.8;
-    filter: drop-shadow(0 10px 30px rgba(102, 126, 234, 0.3));
+    filter: drop-shadow(0 10px 30px rgba(147, 198, 231, 0.3));
 }
 
 /* Buttons */
@@ -195,24 +195,24 @@ p {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #93C6E7 0%, #AEE2FF 100%);
     color: white;
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 5px 15px rgba(147, 198, 231, 0.4);
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+    box-shadow: 0 8px 25px rgba(147, 198, 231, 0.5);
 }
 
 .btn-secondary {
     background: transparent;
-    color: #667eea;
-    border: 2px solid #667eea;
+    color: #93C6E7;
+    border: 2px solid #93C6E7;
 }
 
 .btn-secondary:hover {
-    background: #667eea;
+    background: #93C6E7;
     color: white;
     transform: translateY(-2px);
 }
@@ -310,7 +310,7 @@ section {
     left: 0;
     width: 100%;
     height: 4px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #93C6E7 0%, #AEE2FF 100%);
 }
 
 .class-card:hover {
@@ -341,13 +341,13 @@ section {
     border-radius: 25px;
     font-size: 0.875rem;
     font-weight: 500;
-    color: #667eea;
+    color: #93C6E7;
 }
 
 .class-price {
     font-size: 2rem;
     font-weight: 700;
-    color: #667eea;
+    color: #93C6E7;
 }
 
 /* Research Section - Population Info */
@@ -404,7 +404,7 @@ section {
     left: 0;
     width: 100%;
     height: 4px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #93C6E7 0%, #AEE2FF 100%);
 }
 
 .benefit-card:hover {
@@ -430,7 +430,7 @@ section {
 
 .research-note {
     font-size: 0.875rem;
-    color: #667eea;
+    color: #93C6E7;
     font-weight: 500;
     font-style: italic;
 }
@@ -523,12 +523,12 @@ section {
     background: white;
     padding: 1.5rem;
     border-radius: 15px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #93C6E7;
 }
 
 .phase h4 {
     margin-bottom: 0.75rem;
-    color: #667eea;
+    color: #93C6E7;
     font-size: 1.125rem;
 }
 
@@ -625,7 +625,7 @@ section {
     background: #f8f9fa;
     padding: 1.5rem;
     border-radius: 15px;
-    border-top: 3px solid #667eea;
+    border-top: 3px solid #93C6E7;
 }
 
 .prevention-item h4 {
@@ -655,9 +655,9 @@ section {
 .prevention-conclusion {
     margin-top: 1.5rem;
     padding: 1.5rem;
-    background: #e7f3ff;
+    background: #FEDEFF;
     border-radius: 10px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #93C6E7;
     font-style: italic;
     color: #2c3e50;
     line-height: 1.8;
@@ -758,7 +758,7 @@ section {
     background: white;
     padding: 1.5rem;
     border-radius: 15px;
-    border-top: 3px solid #667eea;
+    border-top: 3px solid #93C6E7;
 }
 
 .modification-item h4 {
@@ -807,8 +807,8 @@ section {
 }
 
 .instructor-note {
-    background: #e7f3ff;
-    border-left: 4px solid #667eea;
+    background: #FEDEFF;
+    border-left: 4px solid #93C6E7;
     padding: 1.5rem;
     border-radius: 10px;
     margin-top: 2rem;
@@ -867,7 +867,7 @@ section {
     background: #f8f9fa;
     padding: 1.5rem;
     border-radius: 15px;
-    border-top: 3px solid #667eea;
+    border-top: 3px solid #93C6E7;
 }
 
 .messaging-item h4 {
@@ -949,9 +949,9 @@ section {
 .marketing-conclusion {
     margin-top: 1.5rem;
     padding: 1.5rem;
-    background: #e7f3ff;
+    background: #FEDEFF;
     border-radius: 10px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #93C6E7;
     font-style: italic;
     color: #2c3e50;
     line-height: 1.8;
@@ -1042,14 +1042,14 @@ section {
 }
 
 .citation-list a {
-    color: #667eea;
+    color: #93C6E7;
     text-decoration: none;
     transition: color 0.3s ease;
     line-height: 1.6;
 }
 
 .citation-list a:hover {
-    color: #764ba2;
+    color: #AEE2FF;
     text-decoration: underline;
 }
 
@@ -1057,7 +1057,7 @@ section {
 sup.citation {
     font-size: 0.75em;
     vertical-align: super;
-    color: #667eea;
+    color: #93C6E7;
     font-weight: 600;
     cursor: pointer;
     text-decoration: none;
@@ -1065,7 +1065,7 @@ sup.citation {
 }
 
 sup.citation:hover {
-    color: #764ba2;
+    color: #AEE2FF;
     text-decoration: underline;
 }
 
@@ -1091,7 +1091,7 @@ sup.citation:hover {
 
 .references-list li::marker {
     font-weight: 600;
-    color: #667eea;
+    color: #93C6E7;
 }
 
 .references-list li em {
@@ -1100,14 +1100,14 @@ sup.citation:hover {
 }
 
 .references-list a {
-    color: #667eea;
+    color: #93C6E7;
     text-decoration: none;
     word-break: break-all;
     transition: color 0.3s ease;
 }
 
 .references-list a:hover {
-    color: #764ba2;
+    color: #AEE2FF;
     text-decoration: underline;
 }
 
@@ -1167,7 +1167,7 @@ sup.citation:hover {
 }
 
 .instructor-title {
-    color: #667eea;
+    color: #93C6E7;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -1234,7 +1234,7 @@ sup.citation:hover {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #93C6E7;
 }
 
 .form-group textarea {
@@ -1282,7 +1282,7 @@ sup.citation:hover {
 }
 
 .footer-section ul li a:hover {
-    color: #667eea;
+    color: #93C6E7;
 }
 
 .social-links {
@@ -1477,7 +1477,7 @@ sup.citation:hover {
 .nav-link:focus,
 input:focus,
 textarea:focus {
-    outline: 2px solid #667eea;
+    outline: 2px solid #93C6E7;
     outline-offset: 2px;
 }
 
