@@ -150,7 +150,7 @@ p {
 
 .hero-title {
     margin-bottom: 1.5rem;
-    color: #FFDCDC;
+    color: #FF90BC;
 }
 
 .hero-subtitle {
@@ -193,7 +193,7 @@ p {
 
 .btn-primary {
     background: linear-gradient(135deg, #93C6E7 0%, #AEE2FF 100%);
-    color: #FFDCDC;
+    color: #FF90BC;
     box-shadow: 0 5px 15px rgba(147, 198, 231, 0.4);
 }
 
@@ -204,12 +204,12 @@ p {
 
 .btn-secondary {
     background: transparent;
-    color: #FFDCDC;
-    border: 2px solid #FFDCDC;
+    color: #FF90BC;
+    border: 2px solid #FF90BC;
 }
 
 .btn-secondary:hover {
-    background: #FFDCDC;
+    background: #FF90BC;
     color: white;
     transform: translateY(-2px);
 }
