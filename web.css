@@ -150,10 +150,7 @@ p {
 
 .hero-title {
     margin-bottom: 1.5rem;
-    background: linear-gradient(135deg, #93C6E7 0%, #AEE2FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #A1EEBD;
 }
 
 .hero-subtitle {
@@ -196,7 +193,7 @@ p {
 
 .btn-primary {
     background: linear-gradient(135deg, #93C6E7 0%, #AEE2FF 100%);
-    color: white;
+    color: #A1EEBD;
     box-shadow: 0 5px 15px rgba(147, 198, 231, 0.4);
 }
 
@@ -207,12 +204,12 @@ p {
 
 .btn-secondary {
     background: transparent;
-    color: #93C6E7;
-    border: 2px solid #93C6E7;
+    color: #A1EEBD;
+    border: 2px solid #A1EEBD;
 }
 
 .btn-secondary:hover {
-    background: #93C6E7;
+    background: #A1EEBD;
     color: white;
     transform: translateY(-2px);
 }
